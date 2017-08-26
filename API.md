@@ -447,7 +447,7 @@ schema.validate(value, (err, value) => { });
 // value.a -> 123 (number, not string)
 
 // or
-const result = schema.validate(value, schema);
+const result = schema.validate(value);
 // result.error -> null
 // result.value -> { "a" : 123 }
 ```
